@@ -1,0 +1,12 @@
+#Ignorer le dossier de vscode
+.vscode
+
+
+#Ignorer les fichiers de compilation et les executables
+*.out
+*.slo
+*.lo
+*.o
+*.obj
+*.exe
+*.app
