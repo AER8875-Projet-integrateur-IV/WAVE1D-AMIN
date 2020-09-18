@@ -30,7 +30,7 @@ int main() {
 
     // writing x coordinates to file
     double dx = length/nx;
-    fileStream << "X coordinates : ";
+    fileStream << "X coordinates : \n";
     for (size_t i=0; i < nx; i++ ){
         fileStream << i*dx << " ";
     }
